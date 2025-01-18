@@ -9,29 +9,29 @@ class Employee {
     String employeeName;
     int employeeSalary;
     int employeeAge;
-    String profileImage;
+    String contactNumber;
 
     Employee({
         required this.id,
         required this.employeeName,
         required this.employeeSalary,
         required this.employeeAge,
-        required this.profileImage,
+        required this.contactNumber,
     });
 
     factory Employee.fromJson(Map<String, dynamic> json) => Employee(
         id: json["id"],
-        employeeName: json["employee_name"],
-        employeeSalary: json["employee_salary"],
-        employeeAge: json["employee_age"],
-        profileImage: json["profile_image"],
+        employeeName: json["firstName"],
+        employeeSalary: json["salary"],
+        employeeAge: json["age"],
+        contactNumber: json["contactNumber"],
     );
 
     Map<String, dynamic> toJson() => {
         "id": id,
-        "employee_name": employeeName,
-        "employee_salary": employeeSalary,
-        "employee_age": employeeAge,
-        "profile_image": profileImage,
+        "firstName": employeeName,
+        "salary": employeeSalary,
+        "age": employeeAge,
+        "contactNumber": contactNumber,
     };
 }

@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:employes_list/models/employee.dart';
 
 class EmployeeService {
-  final Uri endpoint = Uri.parse("http://dummy.restapiexample.com/api/v1/employees/");
+  final Uri endpoint = Uri.parse("https://hub.dummyapis.com/employee/");
 
   Future<List<Employee>> getEmployees() async {
     List<Employee> employees = [];
