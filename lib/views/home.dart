@@ -51,7 +51,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               );
             }
-          ) 
+          )
+      ),
+      floatingActionButton: IconButton(
+        onPressed: () async {
+          loading = true;
+          setState(() {     
+          });
+          await getEmployees();
+        }, 
+        icon: Icon(Icons.download)
       ),
     );
   }

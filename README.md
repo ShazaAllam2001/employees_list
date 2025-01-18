@@ -1,16 +1,9 @@
-# employes_list
+# Employees List
 
-A new Flutter project.
+## description of the project
+- [home](https://github.com/ShazaAllam2001/employees_list/views/home.dart) to show the list of employees (name & salary) 
+- [service](https://github.com/ShazaAllam2001/employees_list/services/employee_service.dart) to get the employee data from the [link](http://dummy.restapiexample.com/api/v1/employees/) using [http package](https://pub.dev/packages/http)
+- [model](https://github.com/ShazaAllam2001/employees_list/services/employee_service.dart) to put the employee data on the right format
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Output screenshot
+[output screenshot](https://github.com/ShazaAllam2001/employees_list/output/output.jpg)
