@@ -8,4 +8,4 @@
 - [model](https://github.com/ShazaAllam2001/employees_list/services/employee_service.dart) to put the employee data on the right format
 
 ## Output screenshot
-[output screenshot](https://github.com/ShazaAllam2001/employees_list/output/output.jpg)
+[output screenshots](https://drive.google.com/drive/folders/1qY4KQyBgEk2IrmRiW19AGaBdwpk39_J2?usp=sharing)
